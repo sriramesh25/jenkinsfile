@@ -1,0 +1,86 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": ";login-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24526414400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to login page",
+            "match": {
+              "location": "MyStepdefs.iNavigateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 798815000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the following",
+            "match": {
+              "location": "MyStepdefs.enterTheFollowing(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 6
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpass"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819014700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Login Button",
+            "match": {
+              "location": "MyStepdefs.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Userform page",
+            "match": {
+              "location": "MyStepdefs.iShouldSeeUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "This Features deals wiht login functionality",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "LoginFeature.feature"
+  }
+]
